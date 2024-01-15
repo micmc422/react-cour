@@ -1,11 +1,11 @@
 {
   "introduction": "Introduction à React",
-  "environnement": "prérequis",
+  "environnement": "Prérequis",
   "composants": "Composants",
   "donnees": "Données",
-  "formulaires": "form",
+  "routage": "Routage",
+  "formulaires": "Formulaires",
   "hooks": "Hooks",
-  "routage": "routage",
   "deploiement": "Déploiement",
   "about": {
     "title": "À propos",
@@ -17,5 +17,13 @@
     "href": "mailto:michael.bardy@occitaweb.fr"
   },
   "exercice": "Exercice",
-  "ressources": "Ressources"
+  "ressources": "Ressources",
+  "plan": {
+    "title": "Plan",
+    "display": "hidden"
+  },
+  "index": {
+    "title": "accueil",
+    "display": "hidden"
+  }
 }

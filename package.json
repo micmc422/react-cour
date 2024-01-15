@@ -1,7 +1,7 @@
 {
-  "name": "webpack-cours",
+  "name": "react-cours",
   "version": "0.0.1",
-  "description": "Technologie web - licence 3 - Champollion - Webpack",
+  "description": "Technologie web - licence 3 - Champollion - React",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
