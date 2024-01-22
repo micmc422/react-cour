@@ -22,17 +22,15 @@ Ensuite, nous définissons nos `<Routes>`. Une application peut avoir plusieurs 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
- return (
-   <Router>
-     <Routes>
-       <Route path="/" element={<Layout />}>
-         <Route index element={<Home />} />
-         <Route path="blogs" element={<Blogs />} />
-         <Route path="*" element={<NotFound />} />
-       </Route>
-     </Routes>
-   </Router>
- );
+  return (
+    <Router>
+      <Routes>
+          <Route index element={<Home />} />
+          <Route path="blogs" element={<Blogs />} />
+          <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
+  );
 }
 ```
 [Source 2](https://www.w3schools.com/react/react_router.asp)
